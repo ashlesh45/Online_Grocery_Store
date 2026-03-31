@@ -1,33 +1,33 @@
-Online Grocery Store Database System
-Project Overview
+ONLINE GROCERY STORE DATABASE SYSTEM
+PROJECT OVERVIEW
 
-This project is a Database Management System designed for an online grocery store. It enables efficient management of products, categories, suppliers, and inventory using an Oracle database. The system provides a structured interface to handle core operations required for a grocery business.
+This project is a Database Management System designed for an online grocery store. It enables efficient management of products, categories, and suppliers using an Oracle database. The system provides a structured interface to handle core business operations effectively.
 
-Features
-Add new products with proper input validation
+FEATURES
+Add new products with input validation
 Manage product pricing and stock quantity
-Maintain category and supplier information
+Maintain category and supplier data
 Store product image paths
 Prevent duplicate product entries
 Ensure safe database transactions
-Technologies Used
+TECHNOLOGIES USED
 Language: C# (.NET Windows Forms)
 Database: Oracle Database
 Connectivity: Oracle Managed Data Access
 Development Tool: Visual Studio
-Database Tables
+DATABASE STRUCTURE
 Products
 Categories
 Suppliers
-Key Functionality
-Input validation before database insertion
-Use of transactions to maintain data consistency
-Dynamic loading of categories and suppliers
-Exception handling for database operations
+KEY FUNCTIONALITY
+Validates user input before inserting into the database
+Uses transactions to maintain data consistency
+Dynamically loads categories and suppliers
+Handles exceptions and database errors effectively
 
 Reference implementation:
 
-How to Run
+HOW TO RUN
 Clone the repository
 Open the project in Visual Studio
 Ensure Oracle Database is running
@@ -36,25 +36,25 @@ Update the connection string:
 
 User Id=system; Password=student; Data Source=localhost:1521/xe;
 Build and run the application
-Sample Workflow
+WORKFLOW
 Enter product details
 Select category and supplier
-Save the product
-Data is stored in the database
-Validation Rules
+Click Save
+Product is stored in the database
+VALIDATION RULES
 Product ID must be unique
 Price must be numeric
 Stock must be a valid integer
 Product name cannot be empty
-Future Improvements
+FUTURE IMPROVEMENTS
 User authentication system
 Online ordering functionality
 Payment integration
 Analytics dashboard
-Author
+AUTHOR
 
 Ashlesh Mallya
 
-Conclusion
+CONCLUSION
 
-This project demonstrates the implementation of a database-driven application for managing real-world business operations efficiently using structured data and transaction handling.
+This project demonstrates the implementation of a database-driven system for managing real-world business operations efficiently using structured data and transaction handling.
